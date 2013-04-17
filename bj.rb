@@ -28,6 +28,7 @@
 
 require 'getoptlong'
 #require 'rdoc/usage'
+$LOAD_PATH << '.'
 require 'BlackJackGame'
 
 def usage

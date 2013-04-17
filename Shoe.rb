@@ -52,7 +52,6 @@ class Shoe < Deck
     end
 
     # Create the shoe
-    i = 0
     1.upto(num_decks) do |x|
       @cards += super().cards # () in super is important due to arg diffs
     end
